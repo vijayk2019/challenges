@@ -1,4 +1,4 @@
-package BitPositions;
+package bitpostions;
 
 import java.io.*;
 import java.util.*;
