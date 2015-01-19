@@ -30,15 +30,15 @@ public class Main {
 		System.out.println(result);	
 		}
 	} catch (Exception ex) {
-	    System.out.println("Unable to open file '" + path +ex+ "'");
+	  System.out.println("Unable to open file '" + path +ex+ "'");
 	}
   }
 	
   private static boolean bitPositions (Integer number, Integer pos1, Integer pos2) {
     if (((number << (32 - pos1) >> 31) ^ (number << (32 - pos2) >> 31)) == 0 ) {
 	  return true;
-	  } else {
-	      return false;
-	  }
+	} else {
+	  return false;
+	}
   }    
 }
