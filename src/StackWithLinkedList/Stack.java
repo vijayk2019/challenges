@@ -1,16 +1,18 @@
 package StackWithLinkedList;
+
 import java.lang.*;
+
 public class Stack {
-	Node head, top;	
+	Node head, top;
 	int listcount;
-	
-	public Stack(){
+
+	public Stack() {
 		head = new Node(null);
 		top = head;
 		listcount = 0;
 	}
-	
-	public void push(Object datavalue){
+
+	public void push(Object datavalue) {
 		Node makenew = new Node(datavalue);
 		Node current = makenew;
 		makenew.setNext(top);
@@ -18,20 +20,20 @@ public class Stack {
 		top = makenew;
 		listcount++;
 	}
-	
-	public Object pop(){
-		if(top == head){
+
+	public Object pop() {
+		if (top == head) {
 			System.out.println("Stack is empty");
-			return null; 
+			return null;
 		}
 		Object ret_value = top.getData();
 		top = top.getNext();
 		listcount--;
 		return ret_value;
-		
+
 	}
-	
-	public int stacksize(){
+
+	public int stacksize() {
 		return listcount;
 	}
 }

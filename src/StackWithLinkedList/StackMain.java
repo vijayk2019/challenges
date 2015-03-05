@@ -9,33 +9,33 @@ public class StackMain {
 		newstk.push(1);
 		newstk.push(2);
 		newstk.push(3);
-		System.out.println("Stack Size: "+ newstk.stacksize());
+		System.out.println("Stack Size: " + newstk.stacksize());
 		retvalue = newstk.pop();
-		System.out.println("Popped Value: "+ retvalue);
-		System.out.println("Stack Size: "+ newstk.stacksize());
+		System.out.println("Popped Value: " + retvalue);
+		System.out.println("Stack Size: " + newstk.stacksize());
 		retvalue = newstk.pop();
-		System.out.println("Popped Value: "+ retvalue);
-		System.out.println("Stack Size: "+ newstk.stacksize());
+		System.out.println("Popped Value: " + retvalue);
+		System.out.println("Stack Size: " + newstk.stacksize());
 		newstk.push(4);
 		newstk.push(5);
 		newstk.push(6);
 		retvalue = newstk.pop();
-		System.out.println("Popped Value: "+ retvalue);
-		System.out.println("Stack Size: "+ newstk.stacksize());
+		System.out.println("Popped Value: " + retvalue);
+		System.out.println("Stack Size: " + newstk.stacksize());
 		retvalue = newstk.pop();
-		System.out.println("Popped Value: "+ retvalue);
+		System.out.println("Popped Value: " + retvalue);
 		retvalue = newstk.pop();
-		System.out.println("Popped Value: "+ retvalue);
-		System.out.println("Stack Size: "+ newstk.stacksize());
+		System.out.println("Popped Value: " + retvalue);
+		System.out.println("Stack Size: " + newstk.stacksize());
 		retvalue = newstk.pop();
-		System.out.println("Popped Value: "+ retvalue);
+		System.out.println("Popped Value: " + retvalue);
 		retvalue = newstk.pop();
-		System.out.println("Popped Value: "+ retvalue);
-		System.out.println("Stack Size: "+ newstk.stacksize());
+		System.out.println("Popped Value: " + retvalue);
+		System.out.println("Stack Size: " + newstk.stacksize());
 		retvalue = newstk.pop();
-		System.out.println("Popped Value: "+ retvalue);
-		System.out.println("Stack Size: "+ newstk.stacksize());
-		
+		System.out.println("Popped Value: " + retvalue);
+		System.out.println("Stack Size: " + newstk.stacksize());
+
 	}
 
 }
