@@ -1,4 +1,4 @@
-package ReverseString;
+package reversestring;
 
 import java.io.*;
 import java.util.*;

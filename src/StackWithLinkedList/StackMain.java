@@ -1,4 +1,4 @@
-package StackWithLinkedList;
+package stackwithlinkedlist;
 
 public class StackMain {
 

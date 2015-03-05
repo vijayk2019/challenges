@@ -1,4 +1,4 @@
-package SelfDescribingNumber;
+package selfdescribingnumber;
 
 import java.io.*;
 import java.util.*;

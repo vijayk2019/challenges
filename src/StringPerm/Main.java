@@ -1,4 +1,4 @@
-package StringPerm;
+package stringperm;
 
 import java.io.*;
 import java.util.*;

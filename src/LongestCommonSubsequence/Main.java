@@ -1,4 +1,4 @@
-package LongestCommonSubsequence;
+package longestcommonsubsequence;
 
 import java.io.*;
 import java.util.*;

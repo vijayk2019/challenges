@@ -1,4 +1,4 @@
-package sqaureIncChallenge;
+package sqaurechallenge;
 
 import java.io.*;
 import java.util.*;
